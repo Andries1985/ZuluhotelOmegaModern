@@ -2174,11 +2174,11 @@
   "project": {
     "version": "0.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ZHXP-main\\ModernUO\\Projects\\Server\\Server.csproj",
-      "projectName": "ModernUO",
-      "projectPath": "F:\\ZHXP-main\\ModernUO\\Projects\\Server\\Server.csproj",
+      "projectUniqueName": "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj",
+      "projectName": "Zuluhotel Omega Modern",
+      "projectPath": "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\ZHXP-main\\ModernUO\\Projects\\Server\\obj\\",
+      "outputPath": "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
