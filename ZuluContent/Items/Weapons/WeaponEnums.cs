@@ -1,0 +1,67 @@
+namespace Server.Items
+{
+    public enum MagicalWeaponType
+    {
+        None,
+        Swift,
+        Stygian,
+        Mystical
+    }
+
+    public enum WeaponType
+    {
+        Axe, // Axes, Hatches, etc. These can give concussion blows
+        Slashing, // Katana, Broadsword, Longsword, etc. Slashing weapons are poisonable
+        Staff, // Staves
+        Bashing, // War Hammers, Maces, Mauls, etc. Two-handed bashing delivers crushing blows
+        Piercing, // Spears, Warforks, Daggers, etc. Two-handed piercing delivers paralyzing blows
+        Polearm, // Halberd, Bardiche
+        Ranged, // Bow, Crossbows
+        Fists // Fists
+    }
+
+    public enum WeaponDamageLevel
+    {
+        Regular,
+        Ruin,
+        Might,
+        Force,
+        Power,
+        Vanquishing,
+        Devastation
+    }
+
+    public enum WeaponAccuracyLevel
+    {
+        Regular,
+        Accurate,
+        Precisely,
+        Surpassingly,
+        Eminently,
+        Exceedingly,
+        Supremely
+    }
+
+    public enum WeaponDurabilityLevel
+    {
+        Regular,
+        Durable,
+        Substantial,
+        Massive,
+        Fortified,
+        Indestructible
+    }
+
+    public enum WeaponAnimation
+    {
+        Slash1H = 9,
+        Pierce1H = 10,
+        Bash1H = 11,
+        Bash2H = 12,
+        Slash2H = 13,
+        Pierce2H = 14,
+        ShootBow = 18,
+        ShootXBow = 19,
+        Wrestle = 31
+    }
+}

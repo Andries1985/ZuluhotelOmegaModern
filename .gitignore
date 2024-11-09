@@ -1,0 +1,14 @@
+*~
+/.idea
+/ClassicUO
+/Distribution/Data/Cliloc.enu
+/ZuluContent/obj
+/ZuluContent/bin
+/Zuluhotel.sln.DotSettings.user
+/Distribution/Configuration/modernuo.json
+/ModernUO/Distribution/
+.vs
+.dev
+.zhconfig.json
+*.so
+*.dll

@@ -1,0 +1,2377 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/wepoll.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/centos.7-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "centos.7-x64"
+          },
+          "runtimes/centos.8-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "centos.8-x64"
+          },
+          "runtimes/debian.10-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "debian.10-x64"
+          },
+          "runtimes/debian.11-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "debian.11-x64"
+          },
+          "runtimes/debian.9-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "debian.9-x64"
+          },
+          "runtimes/fedora.32-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "fedora.32-x64"
+          },
+          "runtimes/fedora.33-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "fedora.33-x64"
+          },
+          "runtimes/fedora.34-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "fedora.34-x64"
+          },
+          "runtimes/fedora.35-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "fedora.35-x64"
+          },
+          "runtimes/fedora.36-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "fedora.36-x64"
+          },
+          "runtimes/linuxmint.17-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "linuxmint.17-x64"
+          },
+          "runtimes/linuxmint.18-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "linuxmint.18-x64"
+          },
+          "runtimes/linuxmint.19-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "linuxmint.19-x64"
+          },
+          "runtimes/ubuntu.14.04-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "ubuntu.14.04-x64"
+          },
+          "runtimes/ubuntu.16.04-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "ubuntu.16.04-x64"
+          },
+          "runtimes/ubuntu.18.04-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "ubuntu.18.04-x64"
+          },
+          "runtimes/ubuntu.20.04-x64/native/libz.so": {
+            "assetType": "native",
+            "rid": "ubuntu.20.04-x64"
+          },
+          "runtimes/win-x64/native/zlib.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      }
+    },
+    "net6.0/centos.7-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/centos.7-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/centos.8-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/centos.8-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/debian.10-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/debian.10-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/debian.11-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/debian.11-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/fedora.32-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/fedora.32-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/fedora.33-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/fedora.33-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/fedora.34-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/fedora.34-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/linuxmint.17-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/linuxmint.17-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/linuxmint.18-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/linuxmint.18-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/linuxmint.19-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/linuxmint.19-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/osx-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        }
+      }
+    },
+    "net6.0/rhel.7-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        }
+      }
+    },
+    "net6.0/rhel.8-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        }
+      }
+    },
+    "net6.0/ubuntu.16.04-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/ubuntu.16.04-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/ubuntu.18.04-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/ubuntu.18.04-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/ubuntu.20.04-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/ubuntu.20.04-x64/native/libz.so": {}
+        }
+      }
+    },
+    "net6.0/win-x64": {
+      "Microsoft.Toolkit.HighPerformance/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "ModernUO.Serialization.Annotations/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ModernUO.Serialization.Annotations.dll": {}
+        }
+      },
+      "ModernUO.Serialization.Generator/2.0.4": {
+        "type": "package"
+      },
+      "Nerdbank.GitVersioning/3.5.104": {
+        "type": "package",
+        "build": {
+          "build/Nerdbank.GitVersioning.props": {},
+          "build/Nerdbank.GitVersioning.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Nerdbank.GitVersioning.targets": {}
+        }
+      },
+      "PollGroup/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PollGroup.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/wepoll.dll": {}
+        }
+      },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.9.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Zlib.Bindings/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Zlib.Bindings.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/zlib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Toolkit.HighPerformance/7.1.2": {
+      "sha512": "cezzRky0BUJyYmSrcQUcX8qAv90JfUwCqWEbqfWZLHyeANo9/LWgW6y50pqbyc8r8SPXVsu2GNH98fB3VxrnvA==",
+      "type": "package",
+      "path": "microsoft.toolkit.highperformance/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "lib/net5.0/Microsoft.Toolkit.HighPerformance.dll",
+        "lib/net5.0/Microsoft.Toolkit.HighPerformance.pdb",
+        "lib/net5.0/Microsoft.Toolkit.HighPerformance.xml",
+        "lib/netcoreapp2.1/Microsoft.Toolkit.HighPerformance.dll",
+        "lib/netcoreapp2.1/Microsoft.Toolkit.HighPerformance.pdb",
+        "lib/netcoreapp2.1/Microsoft.Toolkit.HighPerformance.xml",
+        "lib/netcoreapp3.1/Microsoft.Toolkit.HighPerformance.dll",
+        "lib/netcoreapp3.1/Microsoft.Toolkit.HighPerformance.pdb",
+        "lib/netcoreapp3.1/Microsoft.Toolkit.HighPerformance.xml",
+        "lib/netstandard1.4/Microsoft.Toolkit.HighPerformance.dll",
+        "lib/netstandard1.4/Microsoft.Toolkit.HighPerformance.pdb",
+        "lib/netstandard1.4/Microsoft.Toolkit.HighPerformance.xml",
+        "lib/netstandard2.0/Microsoft.Toolkit.HighPerformance.dll",
+        "lib/netstandard2.0/Microsoft.Toolkit.HighPerformance.pdb",
+        "lib/netstandard2.0/Microsoft.Toolkit.HighPerformance.xml",
+        "lib/netstandard2.1/Microsoft.Toolkit.HighPerformance.dll",
+        "lib/netstandard2.1/Microsoft.Toolkit.HighPerformance.pdb",
+        "lib/netstandard2.1/Microsoft.Toolkit.HighPerformance.xml",
+        "microsoft.toolkit.highperformance.7.1.2.nupkg.sha512",
+        "microsoft.toolkit.highperformance.nuspec"
+      ]
+    },
+    "ModernUO.Serialization.Annotations/2.0.2": {
+      "sha512": "wOGhz6PosVGW3oynAnguuJLHyIkkqkOl+VdPFK3WfM7j2Nwvt5uWqoRmjvZH1Uz8LtH2K6WT0+StIKbXexebCw==",
+      "type": "package",
+      "path": "modernuo.serialization.annotations/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/ModernUO.Serialization.Annotations.dll",
+        "modernuo.serialization.annotations.2.0.2.nupkg.sha512",
+        "modernuo.serialization.annotations.nuspec"
+      ]
+    },
+    "ModernUO.Serialization.Generator/2.0.4": {
+      "sha512": "zuS/h0s/hgnSeA2hwflRCXUKj+hFK+0drZsQ91OL9IGm8CUhiy5zFng/mbRZcBvJWPdvU3PNzEm5UpSM8We+XA==",
+      "type": "package",
+      "path": "modernuo.serialization.generator/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Humanizer.dll",
+        "analyzers/dotnet/cs/Microsoft.Bcl.AsyncInterfaces.dll",
+        "analyzers/dotnet/cs/ModernUO.Serialization.Generator.dll",
+        "analyzers/dotnet/cs/System.Runtime.CompilerServices.Unsafe.dll",
+        "analyzers/dotnet/cs/System.Text.Encodings.Web.dll",
+        "analyzers/dotnet/cs/System.Text.Json.dll",
+        "modernuo.serialization.generator.2.0.4.nupkg.sha512",
+        "modernuo.serialization.generator.nuspec"
+      ]
+    },
+    "Nerdbank.GitVersioning/3.5.104": {
+      "sha512": "U2rlnA+5RxROC53NXtcbX+ZZUajdcuBLQ/OgZF9abOZZzCBuqxUThx1rsQ+Lw8MMy8CU2o6Ctz0q3zz0bM5J8g==",
+      "type": "package",
+      "path": "nerdbank.gitversioning/3.5.104",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/InProjectVersionComputation.targets",
+        "build/MSBuildCore/LibGit2Sharp.dll",
+        "build/MSBuildCore/LibGit2Sharp.dll.config",
+        "build/MSBuildCore/Microsoft.DotNet.PlatformAbstractions.dll",
+        "build/MSBuildCore/NerdBank.GitVersioning.dll",
+        "build/MSBuildCore/Nerdbank.GitVersioning.Tasks.dll",
+        "build/MSBuildCore/Newtonsoft.Json.dll",
+        "build/MSBuildCore/System.Text.Json.dll",
+        "build/MSBuildCore/Validation.dll",
+        "build/MSBuildFull/LibGit2Sharp.dll",
+        "build/MSBuildFull/LibGit2Sharp.dll.config",
+        "build/MSBuildFull/Microsoft.DotNet.PlatformAbstractions.dll",
+        "build/MSBuildFull/NerdBank.GitVersioning.dll",
+        "build/MSBuildFull/Nerdbank.GitVersioning.Tasks.dll",
+        "build/MSBuildFull/Newtonsoft.Json.dll",
+        "build/MSBuildFull/System.Buffers.dll",
+        "build/MSBuildFull/System.Memory.dll",
+        "build/MSBuildFull/System.Numerics.Vectors.dll",
+        "build/MSBuildFull/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/MSBuildFull/System.Text.Json.dll",
+        "build/MSBuildFull/Validation.dll",
+        "build/MSBuildFull/lib/linux-x64/libgit2-b7bad55.so",
+        "build/MSBuildFull/lib/osx-arm64/libgit2-b7bad55.dylib",
+        "build/MSBuildFull/lib/osx-x64/libgit2-b7bad55.dylib",
+        "build/MSBuildFull/lib/win32/x64/git2-b7bad55.dll",
+        "build/MSBuildFull/lib/win32/x86/git2-b7bad55.dll",
+        "build/MSBuildTargetCaching.targets",
+        "build/Nerdbank.GitVersioning.Common.targets",
+        "build/Nerdbank.GitVersioning.Inner.targets",
+        "build/Nerdbank.GitVersioning.props",
+        "build/Nerdbank.GitVersioning.targets",
+        "build/PrivateP2PCaching.proj",
+        "build/runtimes/linux-arm/native/libgit2-b7bad55.so",
+        "build/runtimes/linux-arm64/native/libgit2-b7bad55.so",
+        "build/runtimes/linux-musl-arm/native/libgit2-b7bad55.so",
+        "build/runtimes/linux-musl-arm64/native/libgit2-b7bad55.so",
+        "build/runtimes/linux-musl-x64/native/libgit2-b7bad55.so",
+        "build/runtimes/linux-x64/native/libgit2-b7bad55.so",
+        "build/runtimes/osx-arm64/native/libgit2-b7bad55.dylib",
+        "build/runtimes/osx-x64/native/libgit2-b7bad55.dylib",
+        "build/runtimes/win-arm64/native/git2-b7bad55.dll",
+        "build/runtimes/win-x64/native/git2-b7bad55.dll",
+        "build/runtimes/win-x86/native/git2-b7bad55.dll",
+        "buildCrossTargeting/Nerdbank.GitVersioning.targets",
+        "nerdbank.gitversioning.3.5.104.nupkg.sha512",
+        "nerdbank.gitversioning.nuspec",
+        "readme.txt"
+      ]
+    },
+    "PollGroup/1.2.1": {
+      "sha512": "tW80WbR0UPbftnK9rv3Tb4FKr2M+cYwmVx5wC19Wu7LARa1zwyqmHW469+EvspmuYv5qv5x+V7SYvZmT2cwc1g==",
+      "type": "package",
+      "path": "pollgroup/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/PollGroup.dll",
+        "pollgroup.1.2.1.nupkg.sha512",
+        "pollgroup.nuspec",
+        "runtimes/win-x64/native/wepoll.dll"
+      ]
+    },
+    "Serilog/2.11.0": {
+      "sha512": "ysv+hBzTul6Dp+Hvm10FlhJO3yMQcFKSAleus+LpiIzvNstpeV4Z7gGuIZ1OPNfIMulSHOjmLuGAEDKzpnV8ZQ==",
+      "type": "package",
+      "path": "serilog/2.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.xml",
+        "lib/net5.0/Serilog.dll",
+        "lib/net5.0/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "lib/netstandard2.1/Serilog.dll",
+        "lib/netstandard2.1/Serilog.xml",
+        "serilog.2.11.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Async/1.5.0": {
+      "sha512": "csHYIqAwI4Gy9oAhXYRwxGrQEAtBg3Ep7WaCzsnA1cZuBZjVAU0n7hWaJhItjO7hbLHh/9gRVxALCUB4Dv+gZw==",
+      "type": "package",
+      "path": "serilog.sinks.async/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.Sinks.Async.dll",
+        "lib/net45/Serilog.Sinks.Async.xml",
+        "lib/net461/Serilog.Sinks.Async.dll",
+        "lib/net461/Serilog.Sinks.Async.xml",
+        "lib/netstandard1.1/Serilog.Sinks.Async.dll",
+        "lib/netstandard1.1/Serilog.Sinks.Async.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Async.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Async.xml",
+        "serilog-sink-nuget.png",
+        "serilog.sinks.async.1.5.0.nupkg.sha512",
+        "serilog.sinks.async.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Console/4.0.1": {
+      "sha512": "apLOvSJQLlIbKlbx+Y2UDHSP05kJsV7mou+fvJoRGs/iR+jC22r8cuFVMjjfVxz/AD4B2UCltFhE1naRLXwKNw==",
+      "type": "package",
+      "path": "serilog.sinks.console/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.Sinks.Console.dll",
+        "lib/net45/Serilog.Sinks.Console.xml",
+        "lib/net5.0/Serilog.Sinks.Console.dll",
+        "lib/net5.0/Serilog.Sinks.Console.xml",
+        "lib/netstandard1.3/Serilog.Sinks.Console.dll",
+        "lib/netstandard1.3/Serilog.Sinks.Console.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Console.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Console.xml",
+        "serilog.sinks.console.4.0.1.nupkg.sha512",
+        "serilog.sinks.console.nuspec"
+      ]
+    },
+    "Zlib.Bindings/1.9.2": {
+      "sha512": "xdOKRkVYFezECRBJQKAXSY6btGoss01TvlBzkkFlABaYJmHtNKIWxnTBTs1Y9OkRHow4pNfDYQpUujgteTXspA==",
+      "type": "package",
+      "path": "zlib.bindings/1.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Zlib.Bindings.dll",
+        "runtimes/centos.7-x64/native/libz.so",
+        "runtimes/centos.8-x64/native/libz.so",
+        "runtimes/debian.10-x64/native/libz.so",
+        "runtimes/debian.11-x64/native/libz.so",
+        "runtimes/debian.9-x64/native/libz.so",
+        "runtimes/fedora.32-x64/native/libz.so",
+        "runtimes/fedora.33-x64/native/libz.so",
+        "runtimes/fedora.34-x64/native/libz.so",
+        "runtimes/fedora.35-x64/native/libz.so",
+        "runtimes/fedora.36-x64/native/libz.so",
+        "runtimes/linuxmint.17-x64/native/libz.so",
+        "runtimes/linuxmint.18-x64/native/libz.so",
+        "runtimes/linuxmint.19-x64/native/libz.so",
+        "runtimes/ubuntu.14.04-x64/native/libz.so",
+        "runtimes/ubuntu.16.04-x64/native/libz.so",
+        "runtimes/ubuntu.18.04-x64/native/libz.so",
+        "runtimes/ubuntu.20.04-x64/native/libz.so",
+        "runtimes/win-x64/native/zlib.dll",
+        "zlib.bindings.1.9.2.nupkg.sha512",
+        "zlib.bindings.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.Toolkit.HighPerformance >= 7.1.2",
+      "ModernUO.Serialization.Annotations >= 2.0.2",
+      "ModernUO.Serialization.Generator >= 2.0.4",
+      "Nerdbank.GitVersioning >= 3.5.104",
+      "PollGroup >= 1.2.1",
+      "Serilog >= 2.11.0",
+      "Serilog.Sinks.Async >= 1.5.0",
+      "Serilog.Sinks.Console >= 4.0.1",
+      "Zlib.Bindings >= 1.9.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "0.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\ZHXP-main\\ModernUO\\Projects\\Server\\Server.csproj",
+      "projectName": "ModernUO",
+      "projectPath": "F:\\ZHXP-main\\ModernUO\\Projects\\Server\\Server.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "F:\\ZHXP-main\\ModernUO\\Projects\\Server\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "allWarningsAsErrors": true,
+        "noWarn": [
+          "NU1603"
+        ],
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.Toolkit.HighPerformance": {
+            "target": "Package",
+            "version": "[7.1.2, )"
+          },
+          "ModernUO.Serialization.Annotations": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "ModernUO.Serialization.Generator": {
+            "target": "Package",
+            "version": "[2.0.4, )"
+          },
+          "Nerdbank.GitVersioning": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.5.104, )"
+          },
+          "PollGroup": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
+          "Serilog": {
+            "target": "Package",
+            "version": "[2.11.0, )"
+          },
+          "Serilog.Sinks.Async": {
+            "target": "Package",
+            "version": "[1.5.0, )"
+          },
+          "Serilog.Sinks.Console": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          },
+          "Zlib.Bindings": {
+            "target": "Package",
+            "version": "[1.9.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.osx-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.18, 6.0.18]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[6.0.18, 6.0.18]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "centos.7-x64": {
+        "#import": []
+      },
+      "centos.8-x64": {
+        "#import": []
+      },
+      "debian.10-x64": {
+        "#import": []
+      },
+      "debian.11-x64": {
+        "#import": []
+      },
+      "fedora.32-x64": {
+        "#import": []
+      },
+      "fedora.33-x64": {
+        "#import": []
+      },
+      "fedora.34-x64": {
+        "#import": []
+      },
+      "linuxmint.17-x64": {
+        "#import": []
+      },
+      "linuxmint.18-x64": {
+        "#import": []
+      },
+      "linuxmint.19-x64": {
+        "#import": []
+      },
+      "osx-x64": {
+        "#import": []
+      },
+      "rhel.7-x64": {
+        "#import": []
+      },
+      "rhel.8-x64": {
+        "#import": []
+      },
+      "ubuntu.16.04-x64": {
+        "#import": []
+      },
+      "ubuntu.18.04-x64": {
+        "#import": []
+      },
+      "ubuntu.20.04-x64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      }
+    }
+  }
+}
