@@ -2175,7 +2175,7 @@
     "version": "0.0.0",
     "restore": {
       "projectUniqueName": "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj",
-      "projectName": "Zuluhotel Omega Modern",
+      "projectName": "ModernUO",
       "projectPath": "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
       "outputPath": "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\obj\\",

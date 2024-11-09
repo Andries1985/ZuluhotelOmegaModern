@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj": {}
+    "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj": {}
   },
   "projects": {
-    "D:\\git\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj": {
+    "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj": {
       "version": "0.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj",
-        "projectName": "Zuluhotel Omega Modern",
-        "projectPath": "D:\\git\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj",
+        "projectUniqueName": "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj",
+        "projectName": "ModernUO",
+        "projectPath": "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\obj\\",
+        "outputPath": "D:\\GIT\\ZuluhotelOmegaModern\\ModernUO\\Projects\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

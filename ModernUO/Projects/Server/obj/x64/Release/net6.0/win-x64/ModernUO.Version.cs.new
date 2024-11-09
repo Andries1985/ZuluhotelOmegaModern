@@ -11,8 +11,8 @@
 #pragma warning disable CA2243
 
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.1.46170")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.1+b45ac3a4b9")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.3.36716")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.3+8f6c52c644")]
 #if NETSTANDARD || NETFRAMEWORK || NETCOREAPP
 [System.CodeDom.Compiler.GeneratedCode("Nerdbank.GitVersioning.Tasks","3.5.104.47056")]
 #endif
@@ -21,13 +21,13 @@
 #endif
 internal static partial class ThisAssembly {
     internal const string AssemblyConfiguration = "Release";
-    internal const string AssemblyFileVersion = "0.1.1.46170";
-    internal const string AssemblyInformationalVersion = "0.1.1+b45ac3a4b9";
+    internal const string AssemblyFileVersion = "0.1.3.36716";
+    internal const string AssemblyInformationalVersion = "0.1.3+8f6c52c644";
     internal const string AssemblyName = "ModernUO";
     internal const string AssemblyTitle = "ModernUO";
     internal const string AssemblyVersion = "0.1.0.0";
-    internal static readonly System.DateTime GitCommitDate = new System.DateTime(638667389180000000L, System.DateTimeKind.Utc);
-    internal const string GitCommitId = "b45ac3a4b9a079f9a4006ec858eb45868ea293f0";
+    internal static readonly System.DateTime GitCommitDate = new System.DateTime(638667514150000000L, System.DateTimeKind.Utc);
+    internal const string GitCommitId = "8f6c52c644c706ece96475eeba7c3fd1586e73e6";
     internal const bool IsPrerelease = false;
     internal const bool IsPublicRelease = true;
     internal const string RootNamespace = "Server";

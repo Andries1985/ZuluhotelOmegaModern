@@ -17,28 +17,3 @@ F:\ZHXP-main\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\refint\Mode
 F:\ZHXP-main\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\ModernUO.pdb
 F:\ZHXP-main\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Server.genruntimeconfig.cache
 F:\ZHXP-main\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\ref\ModernUO.dll
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Distribution\Zuluhotel Omega Modern.exe
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Distribution\Zuluhotel Omega Modern.dll.config
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Distribution\Zuluhotel Omega Modern.deps.json
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Distribution\Zuluhotel Omega Modern.runtimeconfig.json
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Distribution\Zuluhotel Omega Modern.dll
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Distribution\Zuluhotel Omega Modern.pdb
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Server.csproj.AssemblyReference.cache
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Server.csproj.SuggestedBindingRedirects.cache
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Zuluhotel Omega Modern.dll.config
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Server.GeneratedMSBuildEditorConfig.editorconfig
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Server.AssemblyInfoInputs.cache
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Server.AssemblyInfo.cs
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Server.csproj.CoreCompileInputs.cache
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Server.csproj.CopyComplete
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Zuluhotel Omega Modern.dll
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\refint\Zuluhotel Omega Modern.dll
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Zuluhotel Omega Modern.pdb
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\Server.genruntimeconfig.cache
-D:\GIT\ZuluhotelOmegaModern\ModernUO\Projects\Server\obj\x64\Release\net6.0\win-x64\ref\Zuluhotel Omega Modern.dll
-C:\ZuluhotelOmegaModern\Distribution\Zuluhotel Omega Modern.exe
-C:\ZuluhotelOmegaModern\Distribution\Zuluhotel Omega Modern.dll.config
-C:\ZuluhotelOmegaModern\Distribution\Zuluhotel Omega Modern.deps.json
-C:\ZuluhotelOmegaModern\Distribution\Zuluhotel Omega Modern.runtimeconfig.json
-C:\ZuluhotelOmegaModern\Distribution\Zuluhotel Omega Modern.dll
-C:\ZuluhotelOmegaModern\Distribution\Zuluhotel Omega Modern.pdb

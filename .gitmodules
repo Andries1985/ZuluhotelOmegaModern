@@ -1,0 +1,4 @@
+[submodule "ModernUO"]
+	path = ModernUO
+	url = https://github.com/zuluhotelaustralia/ModernUO.git
+	ignore = untracked

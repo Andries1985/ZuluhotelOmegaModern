@@ -58,9 +58,11 @@ Initial features implemented from ZH3 will include (but not limited to):
 
 What do I do now?
 -------------
-run dotnet publish
-If you get cue.exe errors during startup, that means your cue.exe version is too new. Get an older one from before Feb 2023.
-Use client 7.0.20.0 to play.
+Edit modernuo.json
+dotnet publish
+Replace cue.exe with a version from before feb 2023 
+Install UO with client version 7.0.20.0
+Use classicUO launcher to run the game
 
 Credits
 --------------
